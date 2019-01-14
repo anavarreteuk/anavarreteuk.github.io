@@ -1,0 +1,22 @@
+{
+  "name": "adrian-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass":  "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anavarreteuk/Portfolio.git"
+  },
+  "author": "Adrian Navarrete",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anavarreteuk/Portfolio/issues"
+  },
+  "homepage": "https://github.com/anavarreteuk/Portfolio#readme",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
