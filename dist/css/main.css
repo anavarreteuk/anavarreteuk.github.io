@@ -130,6 +130,10 @@ h3 {
     padding: 0.2rem 1rem;
     background: rgba(73, 73, 73, 0.5);
     width: fit-content; }
+  h1.lg-headingless{
+    font-size: 4rem;
+
+  }
 
 a {
   color: #fff;
@@ -167,7 +171,7 @@ main {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: #1a99ee 3px solid; }
+    border: #000000 1px solid; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
