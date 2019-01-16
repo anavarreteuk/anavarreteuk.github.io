@@ -133,6 +133,11 @@ h3 {
 h1.lg-headingless {
   font-size: 4rem; }
 
+#positon {
+  color: #1a99ee;
+  margin: 0;
+  font-weight: 400; }
+
 a {
   color: #fff;
   text-decoration: none; }
@@ -224,16 +229,14 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #1a99ee;
-    color: #000; }
+    opacity: 0.5; }
 
 .btn-dark {
   background: black;
   color: #fff; }
 
 .btn-light {
-  background: #c4c4c4;
-  color: #333; }
+  background: darkred; }
 
 #main-footer {
   text-align: center;

@@ -21,6 +21,7 @@ h2,
 h3 {
   margin: 0;
   font-weight: 400;
+  
 
   &.lg-heading {
     font-size: 6rem;
@@ -35,6 +36,11 @@ h3 {
 }
 h1.lg-headingless {
     font-size: 4rem;
+}
+#positon {
+  color: #1a99ee;
+  margin: 0;
+  font-weight: 400;
 }
 
 a {
@@ -176,8 +182,9 @@ main {
   border: 0;
   margin-bottom: 0.3rem;
   &:hover {
-    background: $secondary-color;
-    color: set-text-color($secondary-color);
+    // background: $secondary-color;
+    // color: set-text-color($secondary-color);
+    opacity: 0.5;
   }
 }
 
@@ -189,8 +196,8 @@ main {
 
 .btn-light {
   @extend .btn;
-  background: lighten($primary-color, 50);
-  color: #333;
+  background: darkred;
+  
 }
 
 #main-footer {
