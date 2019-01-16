@@ -7,7 +7,7 @@
 
 body {
   @include background;
-  background: $primary-color;
+  background: url(../img/wood7.jpg);
   color: set-text-color($primary-color);
   height: 100%;
   margin: 0;
@@ -29,9 +29,12 @@ h3 {
   &.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(lighten($primary-color, 2), 0.5);
+    // background: rgba(lighten($primary-color, 2), 0.5);
     width: fit-content;
   }
+}
+h1.lg-headingless {
+    font-size: 4rem;
 }
 
 a {
@@ -87,7 +90,7 @@ main {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: $secondary-color 3px solid;
+    border: black 1px solid;
   }
 
   .bio {
@@ -105,12 +108,15 @@ main {
 
   .job-3 {
     grid-area: job3;
+    h3 {
+      padding-bottom: 20px;
+    }
   }
 
   .job {
-    background: lighten($primary-color, 5);
+    // background: lighten($primary-color, 5);
     padding: 0.5rem;
-    border-bottom: $secondary-color 5px solid;
+    // border-bottom: $secondary-color 5px solid;
   }
 }
 
@@ -185,7 +191,7 @@ main {
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: darken($primary-color, 10);
+  // background: darken($primary-color, 10);
   color: set-text-color($primary-color);
   height: 60px;
 }

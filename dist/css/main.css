@@ -40,7 +40,7 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #373737;
+    background: #191818;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
@@ -94,7 +94,7 @@
   box-sizing: border-box; }
 
 body {
-  background: #444;
+  background: url(../img/wood7.jpg);
   color: #fff;
   height: 100%;
   margin: 0;
@@ -128,12 +128,10 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(73, 73, 73, 0.5);
     width: fit-content; }
-  h1.lg-headingless{
-    font-size: 4rem;
 
-  }
+h1.lg-headingless {
+  font-size: 4rem; }
 
 a {
   color: #fff;
@@ -171,7 +169,7 @@ main {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: #000000 1px solid; }
+    border: black 1px solid; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
@@ -181,10 +179,10 @@ main {
     grid-area: job2; }
   .about-info .job-3 {
     grid-area: job3; }
+    .about-info .job-3 h3 {
+      padding-bottom: 20px; }
   .about-info .job {
-    background: #515151;
-    padding: 0.5rem;
-    border-bottom: #1a99ee 5px solid; }
+    padding: 0.5rem; }
 
 .projects {
   display: grid;
@@ -237,7 +235,6 @@ main {
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #2b2b2b;
   color: #fff;
   height: 60px; }
 
