@@ -115,6 +115,22 @@ main {
 
   .job-2 {
     grid-area: job2;
+    // .first {
+    //   color: red;
+      
+    //   }
+    //   .second {
+    //   color: red;
+      
+    //   }
+    //   .third {
+    //   color: red;
+      
+    //   }
+    //   .fourth {
+    //   color: red;
+      
+      
   }
 
   .job-3 {
@@ -134,8 +150,10 @@ main {
 // Work/Projects
 .projects {
   display: grid;
-  grid-gap: 1rem;
-  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem;
+  grid-template-columns: repeat(2, 1fr);
+  
+  
 
   iframe {
     width: 100%;
@@ -178,8 +196,8 @@ main {
 
 // Button Styles
 .btn {
-  display: block;
-  padding: 0.5rem 1rem;
+  display: inline-block;
+  padding: 0.5rem 3rem;
   border: 0;
   margin-bottom: 0.3rem;
   &:hover {
