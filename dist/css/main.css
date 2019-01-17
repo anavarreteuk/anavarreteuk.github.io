@@ -231,9 +231,11 @@ main {
   display: inline-block;
   padding: 0.5rem 3rem;
   border: 0;
+  border: transparent 3px solid;
    }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    opacity: 0.5; }
+    border: #1a99ee 3px solid;
+     }
 
 .btn-dark {
   background: black;
